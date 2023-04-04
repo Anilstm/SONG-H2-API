@@ -1,4 +1,4 @@
-Given five files,
+Containsfive files,
 
 - `SongController.java` 
 - `SongRepository.java`
@@ -6,7 +6,7 @@ Given five files,
 - `SongRowMapper.java`
 - `Song.java`
 
-And also given a database file `songs` which contains `PLAYLIST` table.
+Contains database file `songs` which contains `PLAYLIST` table.
 
 #### PLAYLIST table
 
@@ -18,12 +18,7 @@ And also given a database file `songs` which contains `PLAYLIST` table.
 |    singer     |  TEXT   |
 | musicDirector |  TEXT   |
 
-<SingleLineNote>
-
-    Use only PLAYLIST as a table name in your code while writing queries
-</SingleLineNote>
-
-### Completion Instructions
+### Complete Instructions
 
 - `Song.java`: The `Song` class should contain the following attributes.
 
@@ -35,12 +30,12 @@ And also given a database file `songs` which contains `PLAYLIST` table.
   |    singer     | String |
   | musicDirector | String |
 
-- `SongRepository.java`: Create an interface containing required methods.
-- `SongService.java`: Update the service class with logic for managing song data.
-- `SongController`: Create the controller class to handle HTTP requests.
-- `SongRowMapper.java`: Create a class which implements the `Rowmapper Interface`.
+- `SongRepository.java`: Creates an interface containing required methods.
+- `SongService.java`: Updates the service class with logic for managing song data.
+- `SongController`: Creates the controller class to handle HTTP requests.
+- `SongRowMapper.java`: Creates a class which implements the `Rowmapper Interface`.
 
-Implement the following APIs.
+Implemented the following APIs.
 
 ### API 1
 
@@ -163,5 +158,3 @@ Updates the details of a song in the `playlist` based on the `songId`. Also, ret
 #### Description:
 
 Deletes a song from the `playlist`  based on the `songId`.
-
-**Do not modify the code in the `SongApplication.java`.**
