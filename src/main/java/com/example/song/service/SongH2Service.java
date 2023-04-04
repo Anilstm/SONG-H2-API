@@ -59,6 +59,6 @@ public class SongH2Service implements SongRepository{
     }
     @Override
     public void deleteSong(int songId){
-        db.update("delete  from playlist where songId=?",new SongRowMapper(),songId);
+        db.update("delete  from playlist where songId=?",songId);
     }
 }
